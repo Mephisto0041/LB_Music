@@ -24,10 +24,6 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002248089351))
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "5970227997"))
 
-# Remove Heroku related variables if not using Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
-
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", "https://github.com/Learningbots79/LB_Music",  # don't change this otherwise you might get an error 🧧
 )
