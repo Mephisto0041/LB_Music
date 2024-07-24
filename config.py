@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("22699294"))
-API_HASH = getenv("995abb1f6386e31f212cc00512432072")
+API_ID = int(getenv("25345631"))
+API_HASH = getenv("892caa6c1594b799e0b66e3182398dbf")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("6989089257:AAEellMiqcrbYA46Vcw-shGEB4aP0mPcmfw")
+BOT_TOKEN = getenv("7334778726:AAFDjpfAlyrp2UKcqDC9MTzm0B_W7ixKSUc")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",None)
+MONGO_DB_URI = getenv("mongodb+srv://modsandy34:Samet01@zuanel.ymhwsh4.mongodb.net/?retryWrites=true&w=majority&appName=Zuanel")
 
 DURATION_LIMIT_MIN = int(getenv("15"))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("1002166452042"))
+LOGGER_ID = int(getenv("1002142859371"))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("5970227997"))
@@ -33,15 +33,15 @@ SUPPORT_CHAT = getenv("ZuanelDuyuru")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("False"))
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID",None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET",None)
 
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT"))
 
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT"))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT""))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT"))
 
-STRING1 = getenv("1BJWap1sBu1DmtUp1E0SEYy04TeV9h-T63LRNN6GwUl4hJpiNGiST111gQX5sSBE5skrdzwlERbAE2WkwkK2k63EM9Rkfa6BoY-J5c7a0Lg2g7Uttmvh1_JSW7-TxJbelSwZRJgtxAsA9lWwH0Co2bAS24n6PVVJ5RFKWQvJ6lZeLEgkiWTHHcW-dmUHptpHGBNsKGv5xGoCK6EZGNw20aT8-6lVEEmM9lycxKXIhgWpIrpnKMZ-JuVCrPNn30i8Xg_yKGsquH_HjeLtdh46w5wbK1n5TlQx02QVfiubadReOH8Wjvt13V9ItgLP_TeWhhODQBYvT9RMDhSLBkmGwqij7DjOUbDo=")
+STRING1 = getenv("1BJWap1sBu2lv-Pc27-MgMrOuz2Q1Qgapzx1R3xOn-BIr5yJOZ8BAgFuvtyp0IiuVAwW9j6aKtmtt-vLVXL-XacgMk3kiHsAnm26gfmBnWRK6VjxFmM0_BYfUDSpv2H9UueIFHkU0ITKfdT14OvgGeH1VCke0IhlCLuHeJeSFzumITGMLjtFRHWj2qGXObd5ZtaCbgUvzxTG5I2DGdWwJEasPGBKJFjHtfR5s21YlTc6TRkFw-Dr-YM8CYXAtohf6SOwDUxAWCi36t3ML_XmZj-YGu2qKtT8h2eKdNGflDwOQuyk5JcS2y_JkiCvVax-eGjv4COPA-ZdTfkVPmwb9BObo1Xq13Ks=")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
